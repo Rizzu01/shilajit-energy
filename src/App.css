@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 .App {
   text-align: center;
 }
@@ -28,6 +33,133 @@
   color: #61dafb;
 }
 
+.nav-link2{
+  font-weight: 500 !important;
+  font-size: 18px !important;
+}
+
+.bg-hero{
+  background: url("./images/bg-hero2.jpg");
+  background-size: cover;
+
+}
+
+.hero-main{
+  font-size: 80px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #00b9e0;
+  text-shadow: 1px 3px 0px rgba(0,0,0,0.6);
+}
+
+.hero-text{
+display: flex;
+align-items: center;
+}
+
+.hero-bt {
+  padding: 15px 30px;
+  background-color: #5dedfc; /* teal color */
+
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+  color: #000;
+  font-weight: 500;
+}
+
+.hero-bt:hover {
+  background-color: #03c6db; /* Darker orange on hover */
+}
+
+/* Styling for the section */
+.features-with-images .feature-item {
+  padding: 20px;
+  border-right: 1px solid #ddd; /* Right border for each feature column */
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.features-with-images .feature-item.no-border {
+  border-right: none; /* Remove right border for the last feature column */
+}
+
+
+.image-box:hover .heading{
+  color: #162c66;
+}
+
+.image-box:hover .image{
+ transform: scale(1.2);
+ transition: all .5s ease-in-out;
+}
+.image-box .image {
+ 
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.image-box .heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.image-box .text {
+  font-size: 14px;
+  color: #555;
+}
+
+.image-container{
+
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+  
+}
+
+.image-container img{
+
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.image-container:hover img{
+  -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+
+@media (max-width: 768px) {
+  .features-with-images .feature-item {
+    padding: 15px;
+  }
+
+  .features-with-images .image-box .heading {
+    font-size: 16px;
+  }
+
+  .features-with-images .image-box .text {
+    font-size: 12px;
+  }
+
+  .image-box .image {
+    width: 50px; /* Adjust image size for smaller screens */
+    height: 50px;
+  }
+}
+
+
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +167,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+@keyframes upDownAnimation {
+  0% {
+    transform: translateY(0); /* Starting position */
+  }
+  50% {
+    transform: translateY(-20px); /* Move up */
+  }
+  100% {
+    transform: translateY(0); /* Move back to original position */
+  }
+}
+
+.img-animate {
+  animation: upDownAnimation 2s ease-in-out infinite; /* 2s duration, infinite loop */
 }
