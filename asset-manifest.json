@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ffd8cd23.css",
+    "main.js": "/static/js/main.ab44ef0d.js",
+    "static/media/banner-1.png": "/static/media/banner-1.885d70edca7e9bada525.png",
+    "static/media/mockup-1-can.png": "/static/media/mockup-1-can.15e22d3cb37128e2cb74.png",
+    "static/media/contact-image.png": "/static/media/contact-image.8db383959d7a7e778403.png",
+    "static/media/143848.jpg": "/static/media/143848.1a9fd34e38b28ed0c278.jpg",
+    "static/media/Shilajit_Benefits.jpg": "/static/media/Shilajit_Benefits.1af325ec52d1fa5e3ef4.jpg",
+    "static/media/logo.svg": "/static/media/logo.5d7d8da6a23f3c8a04e2de856c69f1a7.svg",
+    "index.html": "/index.html",
+    "main.ffd8cd23.css.map": "/static/css/main.ffd8cd23.css.map",
+    "main.ab44ef0d.js.map": "/static/js/main.ab44ef0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffd8cd23.css",
+    "static/js/main.ab44ef0d.js"
+  ]
+}
