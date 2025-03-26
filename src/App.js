@@ -4,7 +4,9 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+useEffect(() => {
+  document.title = "Shilajit-Drinks";
+}, []);
 function App() {
   return (
    <>
